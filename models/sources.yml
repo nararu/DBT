@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: sources
+    materialized: view
+    database: kleidson
+    schema: public
+    tables:
+      - name: PobrezaBR
